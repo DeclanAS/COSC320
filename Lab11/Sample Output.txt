@@ -1,0 +1,44 @@
+C:\Users\Declan\Desktop\COSC320\Lab-11>lab11.exe test1.txt test2.txt
+
+Testing for graph "test1.txt"
+Node: 1
+Neighbors: >> 3
+Node: 2
+Neighbors: >> 4 1
+Node: 3
+Neighbors: >> 5 2
+Node: 4
+Neighbors: >> 1 3
+Node: 5
+Neighbors: >> 2 1 4
+Depth First Search Method:
+1 -> 3 -> 5 -> 2 -> 4 -> Fin.
+Cannot find the topological sort this graph because it is not DAG (directed & contains no cyles).
+Strongly-connected graph component:
+1 -> 3 -> 5 -> 2 -> 4 -> Fin.
+
+Testing for graph "test2.txt"
+Node: 1
+Neighbors: >> 2
+Node: 2
+Neighbors: >> 3
+Node: 3
+Neighbors: >> 4
+Node: 4
+Neighbors: >> 5 7
+Node: 5
+Neighbors: >> 6
+Node: 6
+Neighbors: >>
+Node: 7
+Neighbors: >>
+Node: 8
+Neighbors: >> 7
+Node: 9
+Neighbors: >> 7
+Depth First Search Method:
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> Fin.
+Topological Sort goes as follows:
+9 8 1 2 3 4 7 5 6
+Strongly-connected graph component:
+9 -> 7 -> 8 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> Fin.
