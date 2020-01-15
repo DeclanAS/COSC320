@@ -1,1 +1,15 @@
-Readme
+This is lab 10 for COSC 320.
+
+-> COSC320-001 Lab 10 ReadMe.docx : A required readme file that describes the lab and its results.
+-> COSC320-001 Lab 10 ReadMe.pdf : The same file above except in pdf format.
+-> Lab10Example.png : An image that shows what the test/example graph 1 looks like.
+-> Lab10Example2.png : An image that shows what the test/example graph 2 looks like.
+-> Readme : This file.
+-> Sample Output.txt : The resulting output to console of the program.
+-> graph.h : The headerfile that contains the entire graph Class.
+-> main.cpp : The driver file that tests each graph for BFS and other things.
+-> makefile : The makefile for this program.
+
+Notes:
+  1) Grade: 95.00%.
+      - Print distances from start + parent nodes (-5)
