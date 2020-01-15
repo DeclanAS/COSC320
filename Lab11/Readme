@@ -1,1 +1,17 @@
-Readme file
+This is lab 11 for COSC 320.
+
+-> COSC320-001 Lab 11 README.docx : The required readme file that describes the lab's summary and results in doc format.
+-> COSC320-001 Lab 11 README.pdf : The same file as above in pdf format.
+-> Readme : This file.
+-> Sample Output.txt : This is a text file that contains the lab's output on console.
+-> Test1.png : This is an image of the graph used for test 1 in the lab.
+-> Test2.png : This is an image of the graph used for test 2 in the lab.
+-> main.cpp : This is the main driver for the program.
+-> makefile : The makefile for lab 11.
+-> test1.txt : A file that contains the graph for test 1.
+-> test2.txt : Another file that contains the graph for test 2.
+
+Notes:
+  1) Grade: 90.00%
+      - Should print Depth First Search Metadata (-5)
+      - Strongly Connected Component output unclear (-5)
