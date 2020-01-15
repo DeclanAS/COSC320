@@ -1,0 +1,69 @@
+bash-4.2$ valgrind ./lab10.exe 
+==4114== Memcheck, a memory error detector
+==4114== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4114== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==4114== Command: ./lab10.exe
+==4114== 
+This graph is the following: 
+Node: 1
+Neighbors: >> 8 9 
+Node: 2
+Neighbors: >> 4 9 
+Node: 3
+Neighbors: >> 10 6 
+Node: 4
+Neighbors: >> 7 2 
+Node: 6
+Neighbors: >> 3 9 
+Node: 7
+Neighbors: >> 4 
+Node: 8
+Neighbors: >> 1 
+Node: 9
+Neighbors: >> 2 1 6 
+Node: 10
+Neighbors: >> 3 
+BFS Starting at: 2
+4 <-- Visited.
+9 <-- Visited.
+7 <-- Visited.
+1 <-- Visited.
+6 <-- Visited.
+8 <-- Visited.
+3 <-- Visited.
+10 <-- Visited.
+This graph is the following: 
+Node: 1
+Neighbors: >> 2 3 
+Node: 2
+Neighbors: >> 1 4 5 
+Node: 3
+Neighbors: >> 1 6 7 
+Node: 4
+Neighbors: >> 2 
+Node: 5
+Neighbors: >> 2 8 
+Node: 6
+Neighbors: >> 3 
+Node: 7
+Neighbors: >> 3 
+Node: 8
+Neighbors: >> 5 
+BFS Starting at: 1
+2 <-- Visited.
+3 <-- Visited.
+4 <-- Visited.
+5 <-- Visited.
+6 <-- Visited.
+7 <-- Visited.
+8 <-- Visited.
+==4114== 
+==4114== HEAP SUMMARY:
+==4114==     in use at exit: 0 bytes in 0 blocks
+==4114==   total heap usage: 89 allocs, 89 frees, 4,812 bytes allocated
+==4114== 
+==4114== All heap blocks were freed -- no leaks are possible
+==4114== 
+==4114== For counts of detected and suppressed errors, rerun with: -v
+==4114== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+bash-4.2$ 
