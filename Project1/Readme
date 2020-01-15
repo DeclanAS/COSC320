@@ -17,3 +17,7 @@ This is Project 1 of COSC 320.
 Notes:
   1) This project does not regress data points greater than three dimensions. 
   2) The padding originally made to be in the inverse function does not exist. Instead it is "unpadded" in the main2.cpp file as a "work-around".
+  3) Grade: 85.00%
+      - Only 2 + 3 dimensional (-5)
+      - Does not take filename as input (-5)
+      - Need more code comments (-5)
