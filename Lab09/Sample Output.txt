@@ -1,0 +1,443 @@
+//
+//	Watching this run was stressful
+//
+
+bash-4.2$ valgrind ./lab9.exe 
+==7480== Memcheck, a memory error detector
+==7480== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7480== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==7480== Command: ./lab9.exe
+==7480== 
+[0]Run Menu OR 
+[1]Run Comparisons?:
+>1
+Performing Tests:
+Red Black Tree Ascending Order Test
+Red Black Tree [Size - 1000]:
+Insertion time: 0.0199222s
+Search time: 0.00484251s
+
+Red Black Tree [Size - 2000]:
+Insertion time: 0.0066276s
+Search time: 0.00463603s
+
+Red Black Tree [Size - 3000]:
+Insertion time: 0.00959334s
+Search time: 0.00687051s
+
+Red Black Tree [Size - 4000]:
+Insertion time: 0.0129643s
+Search time: 0.00948988s
+
+Red Black Tree [Size - 5000]:
+Insertion time: 0.0162603s
+Search time: 0.0122967s
+
+Red Black Tree [Size - 6000]:
+Insertion time: 0.0299714s
+Search time: 0.0191762s
+
+Red Black Tree [Size - 7000]:
+Insertion time: 0.0251569s
+Search time: 0.0179552s
+
+Red Black Tree [Size - 8000]:
+Insertion time: 0.026532s
+Search time: 0.0202268s
+
+Red Black Tree [Size - 9000]:
+Insertion time: 0.0332721s
+Search time: 0.0235277s
+
+Red Black Tree [Size - 10000]:
+Insertion time: 0.0333795s
+Search time: 0.0263172s
+
+Red Black Tree Random Order Test
+Red Black Tree [Size - 1000]:
+Insertion time: 0.00387474s
+Search time: 0.00195425s
+Red Black Tree [Size - 2000]:
+Insertion time: 0.00382878s
+Search time: 0.00317283s
+Red Black Tree [Size - 3000]:
+Insertion time: 0.00645339s
+Search time: 0.00498729s
+Red Black Tree [Size - 4000]:
+Insertion time: 0.0081698s
+Search time: 0.00685823s
+Red Black Tree [Size - 5000]:
+Insertion time: 0.00970908s
+Search time: 0.00880948s
+Red Black Tree [Size - 6000]:
+Insertion time: 0.011638s
+Search time: 0.0109114s
+Red Black Tree [Size - 7000]:
+Insertion time: 0.0138491s
+Search time: 0.013127s
+Red Black Tree [Size - 8000]:
+Insertion time: 0.0190977s
+Search time: 0.0168498s
+Red Black Tree [Size - 9000]:
+Insertion time: 0.0177993s
+Search time: 0.0172463s
+Red Black Tree [Size - 10000]:
+Insertion time: 0.0200232s
+Search time: 0.0192523s
+deall
+Binary Search Tree Ascending Test
+Binary Search Tree [Size - 1000]:
+Insertion time: 0.0237688s
+Search time: 0.0582166s
+Binary Search Tree [Size - 2000]:
+Insertion time: 0.0858313s
+Search time: 0.322509s
+Binary Search Tree [Size - 3000]:
+Insertion time: 0.267702s
+Search time: 0.667778s
+Binary Search Tree [Size - 4000]:
+Insertion time: 0.379887s
+Search time: 0.848969s
+Binary Search Tree [Size - 5000]:
+Insertion time: 0.526252s
+Search time: 1.33039s
+Binary Search Tree [Size - 6000]:
+Insertion time: 0.755522s
+Search time: 1.90894s
+Binary Search Tree [Size - 7000]:
+Insertion time: 1.02795s
+Search time: 2.5936s
+Binary Search Tree [Size - 8000]:
+Insertion time: 1.34043s
+Search time: 3.38997s
+Binary Search Tree [Size - 9000]:
+Insertion time: 1.69314s
+Search time: 4.28798s
+Binary Search Tree [Size - 10000]:
+Insertion time: 2.08909s
+Search time: 5.29433s
+Binary Search Tree Random Order Test
+Binary Search Tree [Size - 1000]:
+Insertion time: 0.00230344s
+Search time: 0.00235187s
+Binary Search Tree [Size - 2000]:
+Insertion time: 0.0032945s
+Search time: 0.00338349s
+Binary Search Tree [Size - 3000]:
+Insertion time: 0.00518228s
+Search time: 0.00562276s
+Binary Search Tree [Size - 4000]:
+Insertion time: 0.00704936s
+Search time: 0.00727898s
+Binary Search Tree [Size - 5000]:
+Insertion time: 0.00919268s
+Search time: 0.0100903s
+Binary Search Tree [Size - 6000]:
+Insertion time: 0.010931s
+Search time: 0.0123334s
+Binary Search Tree [Size - 7000]:
+Insertion time: 0.0134166s
+Search time: 0.0147318s
+Binary Search Tree [Size - 8000]:
+Insertion time: 0.0145235s
+Search time: 0.0167806s
+Binary Search Tree [Size - 9000]:
+Insertion time: 0.0166878s
+Search time: 0.0190697s
+Binary Search Tree [Size - 10000]:
+Insertion time: 0.0185814s
+Search time: 0.0217352s
+==7480== 
+==7480== HEAP SUMMARY:
+==7480==     in use at exit: 0 bytes in 0 blocks
+==7480==   total heap usage: 220,141 allocs, 220,141 frees, 7,484,472 bytes allocated
+==7480== 
+==7480== All heap blocks were freed -- no leaks are possible
+==7480== 
+==7480== For counts of detected and suppressed errors, rerun with: -v
+==7480== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+bash-4.2$ 
+
+[0]Run Menu OR 
+[1]Run Comparisons?:
+>0
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>1
+Enter a number (> 0) you would like to enter in the RBT:
+>1
+Number entered!
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>1
+Enter a number (> 0) you would like to enter in the RBT:
+>2
+Number entered!
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>1
+Enter a number (> 0) you would like to enter in the RBT:
+>3
+Number entered!
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>1
+Enter a number (> 0) you would like to enter in the RBT:
+>4
+Number entered!
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>3
+The minimum value in the RBT is: 1.
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>2
+Enter a number you would like to search for:
+>2
+The value does exist in the RBT!
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>4
+The maximum value in the RBT is: 4.
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>5
+Enter a number to find the successor of:
+>2
+The successor of 2 is 3.
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>5
+Enter a number to find the successor of:
+>4
+Cannot find successor of 4, since it is the max value.
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>6
+Enter a number you wish to remove:
+>3
+Number removed!
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>7
+[1 = Inorder] [2 = Preorder] [3 = Postorder]
+Enter how you would like to print out the RBT:
+>1
+Inorder: 1{B} 2{B} 4{B} 
+
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>7
+[1 = Inorder] [2 = Preorder] [3 = Postorder]
+Enter how you would like to print out the RBT:
+>2
+Preorder: 2{B} 1{B} 4{B} 
+
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>7
+[1 = Inorder] [2 = Preorder] [3 = Postorder]
+Enter how you would like to print out the RBT:
+>3
+Postorder: 1{B} 4{B} 2{B} 
+
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>8
+                                        2B
+                                1B              4B
+                         X       X               X       X 
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print RBT In Orders          │
+│ [8] - Print Red Black Tree         │
+│ [9] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection:
+>9
+Terminating Program...Bye!
+==11859== 
+==11859== HEAP SUMMARY:
+==11859==     in use at exit: 0 bytes in 0 blocks
+==11859==   total heap usage: 6 allocs, 6 frees, 176 bytes allocated
+==11859== 
+==11859== All heap blocks were freed -- no leaks are possible
+==11859== 
+==11859== For counts of detected and suppressed errors, rerun with: -v
+==11859== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+bash-4.2$ 
