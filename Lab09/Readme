@@ -1,1 +1,16 @@
-Readme
+This is lab 9 for COSC 320.
+
+-> COSC320 LAB9 DATASHEET - Sheet1.pdf : Resulting data made into comparisons graphs.
+-> COSC320-001 Lab9 README.docx : The required ending documentation for lab 9 that outlines the approach, data, and more.
+-> COSC320-001 Lab9 README.pdf : The same required documentation in pdf format.
+-> Data Sample : A sample of resulting time data in seconds.
+-> Readme : This file.
+-> Sample Output.txt : Console/Terminal output of a test run-through. Zero data leaks!
+-> bt.h : The header file containing the entire binary tree Class.
+-> main.cpp : The driver file that contains a menu and a testing mechanism to compare RBT and BT.
+-> makefile : The makefile for this program.
+-> rbt.h : The header file containing the entire red black tree Class.
+
+Notes:
+  1) Grade: 100.00%
+      + Great!
