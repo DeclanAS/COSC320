@@ -1,4 +1,5 @@
 # This is lab 10 for COSC 320.
+## Contents
 
 1. **COSC320-001 Lab 10 ReadMe.docx** : A required readme file that describes the lab and its results.
 2. **COSC320-001 Lab 10 ReadMe.pdf** : The same file above except in pdf format.
