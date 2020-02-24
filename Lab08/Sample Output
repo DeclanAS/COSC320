@@ -1,0 +1,219 @@
+bash-4.2$ make
+g++ -std=c++11 -c main.cpp -g
+g++ -o lab8.exe main.o -g
+bash-4.2$ ./lab8.exe 
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 1
+Enter a number (> 0) you would like to enter in the BST: 25
+Number entered!
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 7
+[1 = Inorder] [2 = Preorder] [3 = Postorder]
+Enter how you would like to print out the BST: 1
+Inorder: 25 
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 1
+Enter a number (> 0) you would like to enter in the BST: 26
+Number entered!
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 1
+Enter a number (> 0) you would like to enter in the BST: 4
+Number entered!
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 1
+Enter a number (> 0) you would like to enter in the BST: 8
+Number entered!
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 7
+[1 = Inorder] [2 = Preorder] [3 = Postorder]
+Enter how you would like to print out the BST: 2
+Preorder: 25 4 8 26 
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 6
+Enter a number you wish to remove: 100
+Enter a number you wish to remove: 8
+Number removed!
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 7
+[1 = Inorder] [2 = Preorder] [3 = Postorder]
+Enter how you would like to print out the BST: 3
+Postorder: 4 26 25 
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 2
+Enter a number you would like to search for: 4
+The value does exist in the BST!
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 3
+The minimum value in the BST is: 4.
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 4
+The maximum value in the BST is: 26.
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 5
+Enter a number to find the successor of: 4
+The successor of 4 is 25.
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Insert                       │
+│ [2] - Search                       │
+│ [3] - Fetch Minimum                │
+│ [4] - Fetch Maximum                │
+│ [5] - Fetch Successor              │
+│ [6] - Delete Node                  │
+│ [7] - Print Binary Search Tree     │
+│ [8] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 8
+Exiting program...
+Execution time: 1.36e-06s
+Ignore Above Timing
+Testing Insert & Search at size: 1000.
+Execution time: 0.000291765s
+Execution time: 0.000270087s
+
+
+/***** Second Snippet *****/
+==3807== 
+==3807== HEAP SUMMARY:
+==3807==     in use at exit: 0 bytes in 0 blocks
+==3807==   total heap usage: 3 allocs, 3 frees, 112 bytes allocated
+==3807== 
+==3807== All heap blocks were freed -- no leaks are possible
+==3807== 
+==3807== For counts of detected and suppressed errors, rerun with: -v
+==3807== Use --track-origins=yes to see where uninitialised values come from
+==3807== ERROR SUMMARY: 4 errors from 4 contexts (suppressed: 0 from 0)
+/***** END *****/
