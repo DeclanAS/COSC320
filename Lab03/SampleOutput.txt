@@ -1,0 +1,95 @@
+bash-4.2$ ./lab3.exe
+----------------------Size: 100----------------------
+Presorted Heap Sort Time:  Execution time: 3.8413e-05
+Reverse Heap Sort Time:    Execution time: 3.3524e-05
+Randomized Heap Sort Time: Execution time: 3.5549e-05
+Duplicates Heap Sort Time: Execution time: 3.5968e-05
+----------------------Size: 1000----------------------
+Presorted Heap Sort Time:  Execution time: 0.000488893
+Reverse Heap Sort Time:    Execution time: 0.000473458
+Randomized Heap Sort Time: Execution time: 0.000529332
+Duplicates Heap Sort Time: Execution time: 0.000500417
+----------------------Size: 10000----------------------
+Presorted Heap Sort Time:  Execution time: 0.00628738
+Reverse Heap Sort Time:    Execution time: 0.0056646
+Randomized Heap Sort Time: Execution time: 0.00619833
+Duplicates Heap Sort Time: Execution time: 0.00542351
+----------------------Size: 100000----------------------
+Presorted Heap Sort Time:  Execution time: 0.053418
+Reverse Heap Sort Time:    Execution time: 0.0424108
+Randomized Heap Sort Time: Execution time: 0.0451406
+Duplicates Heap Sort Time: Execution time: 0.0410942
+----------------------Size: 1000000----------------------
+Presorted Heap Sort Time:  Execution time: 0.468943
+Reverse Heap Sort Time:    Execution time: 0.342332
+Randomized Heap Sort Time: Execution time: 0.366915
+Duplicates Heap Sort Time: Execution time: 0.339635
+
+
+bash-4.2$ ./lab3.exe
+----------------------Size: 100----------------------
+Presorted Heap Sort Time:  Execution time: 3.8972e-05
+Reverse Heap Sort Time:    Execution time: 3.2197e-05
+Randomized Heap Sort Time: Execution time: 3.6178e-05
+Duplicates Heap Sort Time: Execution time: 3.534e-05
+----------------------Size: 1000----------------------
+Presorted Heap Sort Time:  Execution time: 0.000478557
+Reverse Heap Sort Time:    Execution time: 0.000461585
+Randomized Heap Sort Time: Execution time: 0.00051215
+Duplicates Heap Sort Time: Execution time: 0.000492944
+----------------------Size: 10000----------------------
+Presorted Heap Sort Time:  Execution time: 0.00614469
+Reverse Heap Sort Time:    Execution time: 0.00554531
+Randomized Heap Sort Time: Execution time: 0.005999
+Duplicates Heap Sort Time: Execution time: 0.00532593
+----------------------Size: 100000----------------------
+Presorted Heap Sort Time:  Execution time: 0.0532071
+Reverse Heap Sort Time:    Execution time: 0.0418327
+Randomized Heap Sort Time: Execution time: 0.0441969
+Duplicates Heap Sort Time: Execution time: 0.0406149
+----------------------Size: 1000000----------------------
+Presorted Heap Sort Time:  Execution time: 0.502891
+Reverse Heap Sort Time:    Execution time: 0.384905
+Randomized Heap Sort Time: Execution time: 0.362106
+Duplicates Heap Sort Time: Execution time: 0.3366
+2
+3 4 
+5 6 7 8 
+9 10 11 12 13 14 15 16
+
+
+(The array are numbers 2 to 16).
+
+bash-4.2$ make
+g++ -std=c++11 -c main.cpp
+g++ -o lab3.exe main.o
+bash-4.2$ ./lab3.exe
+----------------------Size: 100----------------------
+Presorted Heap Sort Time:  Execution time: 3.7854e-05
+Reverse Heap Sort Time:    Execution time: 3.2127e-05
+Randomized Heap Sort Time: Execution time: 3.7226e-05
+Duplicates Heap Sort Time: Execution time: 3.4572e-05
+----------------------Size: 1000----------------------
+Presorted Heap Sort Time:  Execution time: 0.000489522
+Reverse Heap Sort Time:    Execution time: 0.000452366
+Randomized Heap Sort Time: Execution time: 0.000519344
+Duplicates Heap Sort Time: Execution time: 0.000482049
+----------------------Size: 10000----------------------
+Presorted Heap Sort Time:  Execution time: 0.00618073
+Reverse Heap Sort Time:    Execution time: 0.00552093
+Randomized Heap Sort Time: Execution time: 0.00607988
+Duplicates Heap Sort Time: Execution time: 0.00532097
+----------------------Size: 100000----------------------
+Presorted Heap Sort Time:  Execution time: 0.0531681
+Reverse Heap Sort Time:    Execution time: 0.0415467
+Randomized Heap Sort Time: Execution time: 0.0439926
+Duplicates Heap Sort Time: Execution time: 0.0404613
+----------------------Size: 1000000----------------------
+Presorted Heap Sort Time:  Execution time: 0.463932
+Reverse Heap Sort Time:    Execution time: 0.337232
+Randomized Heap Sort Time: Execution time: 0.359454
+Duplicates Heap Sort Time: Execution time: 0.336337
+2
+3 4 
+5 6 7 8 
+9 10 11 12 13 14 15 16 
