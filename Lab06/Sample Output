@@ -1,0 +1,114 @@
+bash-4.2$ make
+g++ -std=c++11 -c main.cpp
+g++ -o lab6.exe main.o
+bash-4.2$ ./lab6.exe
+Avg: 8 <- 1000
+Avg: 18.2 <- 2000
+Avg: 29.2 <- 4000, etc.
+Avg: 38
+Avg: 47.5
+Avg: 57.2
+Avg: 69.6
+Avg: 81.5
+Avg: 93.4
+Avg: 104.6
+
+Execution time: 0.0021377s  QUICK SORT
+Execution time: 0.00138987s RANDOMIZED QUICK SORT
+Execution time: 0.00136326s MERGE SORT
+Execution time: 0.0000911s   HEAP SORT
+
+Execution time: 0.0103931s
+Execution time: 0.00736831s
+Execution time: 0.00657691s
+Execution time: 0.0000918s
+
+Execution time: 0.0203465s
+Execution time: 0.0134532s
+Execution time: 0.0126558s
+Execution time: 0.0001007s
+
+Execution time: 0.0297884s
+Execution time: 0.0194699s
+Execution time: 0.0189365s
+Execution time: 0.000122s
+
+Execution time: 0.0399904s
+Execution time: 0.0272508s
+Execution time: 0.0252389s
+Execution time: 0.001376s
+
+Execution time: 0.0510012s
+Execution time: 0.0344986s
+Execution time: 0.0314176s
+Execution time: 0.00127s
+
+Execution time: 0.0609631s
+Execution time: 0.0407171s
+Execution time: 0.038151s
+Execution time: 0.00337s
+
+Execution time: 0.0729981s
+Execution time: 0.0475985s
+Execution time: 0.0447181s
+Execution time: 0.00338s
+
+Execution time: 0.0820641s
+Execution time: 0.0552185s
+Execution time: 0.051384s
+Execution time: 0.00369s
+
+Execution time: 0.0935713s
+Execution time: 0.0642029s
+Execution time: 0.0577538s
+Execution time: 0.00493s
+
+Execution time: 0.103738s
+Execution time: 0.0742438s
+Execution time: 0.0642718s
+Execution time: 0.00527s
+
+Execution time: 0.11442s
+Execution time: 0.0778068s
+Execution time: 0.0709717s
+Execution time: 0.006193s
+
+Execution time: 0.127567s
+Execution time: 0.0840278s
+Execution time: 0.0786017s
+Execution time: 0.00647s
+
+Execution time: 0.13916s
+Execution time: 0.0903593s
+Execution time: 0.0854951s
+Execution time: 0.007354s
+
+Execution time: 0.149688s
+Execution time: 0.0979282s
+Execution time: 0.0924094s
+Execution time: 0.007943s
+
+Execution time: 0.166108s
+Execution time: 0.107615s
+Execution time: 0.100028s
+Execution time: 0.009347s
+
+Execution time: 0.177557s
+Execution time: 0.117004s
+Execution time: 0.106964s
+Execution time: 0.00962s
+
+Execution time: 0.183389s
+Execution time: 0.124352s
+Execution time: 0.113468s
+Execution time: 0.00989s
+
+Execution time: 0.197354s
+Execution time: 0.135474s
+Execution time: 0.124535s
+Execution time: 0.0137s
+
+Execution time: 0.203313s
+Execution time: 0.13932s
+Execution time: 0.127523s
+Execution time: 0.0189s
