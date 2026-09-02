@@ -1,0 +1,44 @@
+COSC 320-Dr. Joseph Anderson		LAB 1
+Declan Sheehan
+Theoretic Time Complexities:
+Bubble Sort
+Array Size | Best TC  |  Worst TC | Best Time | Worst Time
+    100		O(n)	O(n^2)		99	10000
+    10000	O(n)	O(n^2)		9999	100000000
+    1000000	O(n)	O(n^2)		999999	1000000000000
+Insertion Sort
+Array Size | Best TC  |  Worst TC | Best Time | Worst Time
+    100		O(n)	O(n^2)		99	10000
+    10000	O(n)	O(n^2)		9999	100000000
+    1000000	O(n)	O(n^2)		999999	1000000000000
+Selection Sort
+Array Size | Best TC  |  Worst TC | Best Time | Worst Time
+    100		O(n^2)	  O(n^2)	10e4	10000
+    10000	O(n^2)	  O(n^2)	10e8	100000000
+    1000000	O(n^2)	  O(n^2)	10e12	1000000000000
+
+Absolute Timing Scale:
+The timing scale for the runtime matches well with the time complexities for 
+bubble, insertion, and selection sort. For instance, the best runtime for array
+size 100 for bubble sort (already sorted) took 99 swaps; in other words, O(n).
+With that being said, the data that came from the runtime replicates the theoretic
+time complexities.
+
+Algorithm Analysis:
+Each respective algorithm performed as expected except the selection sort seemed to
+out-perform the insertion sort. The smaller amount of data gathered could be
+the cause of this. From the data, Bubble sort performs terribly while
+Selection sort and Insertion performed better and similarly.
+As for the sorting process; the already sorted array took the minimum
+amount of time to sort for every array size along with the reversed
+array formation. For the most part, this made sense, since an already sorted
+array should take only O(n) or n-1 turns to sort it. According to the
+results, the best case for the data was approximately O(n) for 
+each case. As for the worst case for all but the selection sort was: O(n^2).
+
+Code improvements:
+I could have used actual pointers (*) for the arrays so I could dynamically modify
+the amount of elements and delete the allocated data once finished with the sorting
+process. This would likely prevent the segmentation default at the end of the
+program. Another thing I could have done was to make a for-each loop to loop the
+different sorts; making the code more efficient.

@@ -1,0 +1,28 @@
+bash-4.2$ ./Lab1.exe
+test----------100 Size Array----------
+Array is sorted : False <--------------
+Number of swaps: 1832  |  Calculations took: 0 second(s)
+Array is sorted : True <---------------
+Number of swaps: 2402  |  Calculations took: 0 second(s)
+Number of swaps: 99  |  Calculations took: 0 second(s)
+Sorting an already sorted array using selection sort.
+Number of swaps: 99  |  Calculations took: 0 second(s)
+Sorting a reversed array using selection sort.
+Number of swaps: 99  |  Calculations took: 0 second(s)
+---------10000 Size Array---------
+Number of swaps: 18534036  |  Calculations took: 0.52 second(s)
+Number of swaps: 25174033  |  Calculations took: 0.19 second(s)
+Number of swaps: 9999  |  Calculations took: 0.13 second(s)
+Sorting an already sorted array using selection sort.
+Number of swaps: 9999  |  Calculations took: 0.14 second(s)
+Sorting a reversed array using selection sort.
+Number of swaps: 9999  |  Calculations took: 0.14 second(s)
+--------1000000 Size Array--------
+Number of swaps: -736961149  |  Calculations took: 3902.75 second(s)
+Number of swaps: 1054816754  |  Calculations took: 1804.64 second(s)
+Number of swaps: 999999  |  Calculations took: 1360.54 second(s)
+Sorting an already sorted array using selection sort.
+Number of swaps: 999999  |  Calculations took: 1361.01 second(s)
+Sorting a reversed array using selection sort.
+Number of swaps: 999999  |  Calculations took: 1359.7 second(s)
+Segmentation fault (core dumped)
