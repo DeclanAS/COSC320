@@ -1,0 +1,103 @@
+bash-4.2$ ./lab4.exe
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Extract Max Object           │
+│ [2] - Insert Name                  │
+│ [3] - Peek At Top Priority         │
+│ [4] - Print Out Heap               │
+│ [5] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 1
+Not enough objects in heap.
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Extract Max Object           │
+│ [2] - Insert Name                  │
+│ [3] - Peek At Top Priority         │
+│ [4] - Print Out Heap               │
+│ [5] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 2
+How many names are will you be adding?: 3
+Enter a name: Anderson
+Enter priority for name: 120
+Execution time: 9.051e-06
+Enter a name: Dylan
+Enter priority for name: 250
+Execution time: 9.087e-06
+Enter a name: Zuckerburg
+Enter priority for name: 2
+Execution time: 2.85e-06
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Extract Max Object           │
+│ [2] - Insert Name                  │
+│ [3] - Peek At Top Priority         │
+│ [4] - Print Out Heap               │
+│ [5] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 4
+   [Dylan] 
+
+  [Anderson] [Zuckerburg] 
+
+
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Extract Max Object           │
+│ [2] - Insert Name                  │
+│ [3] - Peek At Top Priority         │
+│ [4] - Print Out Heap               │
+│ [5] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 3
+Data | Key - Top of Queue
+Dylan  |  250
+Execution time: 3.9405e-05
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Extract Max Object           │
+│ [2] - Insert Name                  │
+│ [3] - Peek At Top Priority         │
+│ [4] - Print Out Heap               │
+│ [5] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 1
+Execution time: 5.212e-06
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Extract Max Object           │
+│ [2] - Insert Name                  │
+│ [3] - Peek At Top Priority         │
+│ [4] - Print Out Heap               │
+│ [5] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 4
+   [] 
+
+  [Anderson] [Zuckerburg] 
+
+
+┌╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┐
+│               MENU                 │
+│ [1] - Extract Max Object           │
+│ [2] - Insert Name                  │
+│ [3] - Peek At Top Priority         │
+│ [4] - Print Out Heap               │
+│ [5] - Exit Program                 │
+│                                    │
+└╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼╾┘
+Selection: 5
+n = 10
+Execution time: 3.231e-06
+n = 100
+Execution time: 1.7063e-05
+n = 1000
+Execution time: 0.000238446
+bash-4.2$ 
