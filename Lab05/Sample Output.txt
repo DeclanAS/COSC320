@@ -1,0 +1,160 @@
+/* Start Here? */
+bash-4.2$ ./lab5.exe
+Execution time: 1.447e-06s
+Matrix Multiplication (nxn):
+Size [5] Execution time: 7.457e-06s
+Size [10] Execution time: 2.2235e-05s
+Size [20] Execution time: 0.000145176s
+Size [40] Execution time: 0.00113156s
+Size [80] Execution time: 0.00863012s
+Size [160] Execution time: 0.0545012s
+Size [320] Execution time: 0.346765s
+Size [640] Execution time: 2.25793s
+Size [1280] Execution time: 18.0858s
+Size [2560] Execution time: 230.915s
+Matrix Addition (nxn):
+Size [5] Execution time: 2.062e-06s
+Size [10] Execution time: 2.53e-06s
+Size [20] Execution time: 4.972e-06s
+Size [40] Execution time: 1.774e-05s
+Size [80] Execution time: 5.9895e-05s
+Size [160] Execution time: 0.000225732s
+Size [320] Execution time: 0.00090744s
+Size [640] Execution time: 0.00373607s
+Size [1280] Execution time: 0.0144831s
+Size [2560] Execution time: 0.0591081s
+Size [5120] Execution time: 0.234974s
+Size [10240] Execution time: 0.938574s
+Size [20480] Execution time: 3.78315s
+Size [40960] Execution time: 15.9012s
+
+/*   Valgrind [Multiplication size -> 640] 
+to reduce run time [Addition size ->10240] */
+bash-4.2$ make
+g++ -std=c++11 -c main.cpp
+g++ -o lab5.exe main.o matrix.o
+bash-4.2$ valgrind ./lab5.exe
+==16510== Memcheck, a memory error detector
+==16510== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==16510== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==16510== Command: ./lab5.exe
+==16510== 
+Execution time: 0.000417748s
+Matrix Multiplication (nxn):
+Size [5] Execution time: 0.00234275s
+Size [10] Execution time: 0.000181228s
+Size [20] Execution time: 0.00105683s
+Size [40] Execution time: 0.00784875s
+Size [80] Execution time: 0.0616258s
+Size [160] Execution time: 0.387983s
+Size [320] Execution time: 2.79184s
+Size [640] Execution time: 22.702s
+Matrix Addition (nxn):
+Size [5] Execution time: 0.00105189s
+Size [10] Execution time: 4.8744e-05s
+Size [20] Execution time: 8.5292e-05s
+Size [40] Execution time: 0.000239921s
+Size [80] Execution time: 0.000713002s
+Size [160] Execution time: 0.00266042s
+Size [320] Execution time: 0.0102125s
+Size [640] Execution time: 0.0398021s
+Size [1280] Execution time: 0.158979s
+Size [2560] Execution time: 0.647127s
+Size [5120] Execution time: 2.68609s
+Size [10240] Execution time: 10.8924s
+==16510== 
+==16510== HEAP SUMMARY:
+==16510==     in use at exit: 0 bytes in 0 blocks
+==16510==   total heap usage: 65,350 allocs, 65,350 frees, 1,684,797,960 bytes allocated
+==16510== 
+==16510== All heap blocks were freed -- no leaks are possible
+==16510== 
+==16510== For counts of detected and suppressed errors, rerun with: -v
+==16510== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+
+///* FULL PROGRAM OUTPUT *///
+Execution time: 1.427e-06s
+81 5 
+72 86 
+
+Scalar: 25
+2025 125 
+1800 2150 
+
+Base Matrix:
+0 0 0 
+0 0 0 
+0 0 0 
+
+Diagonal Matrix:
+81 0 0 
+0 5 0 
+0 0 72 
+
+Identity Matrix:
+1 0 0 
+0 1 0 
+0 0 1 
+
+Scalar: 21
+21 0 0 
+0 21 0 
+0 0 21 
+
+Triangular Upper Matrix:
+81 5 72 
+0 86 65 
+0 0 28 
+
+Matrix N:
+81 5 72 
+86 65 28 
+10 82 39 
+
+Matrix M:
+81 5 72 
+86 65 28 
+10 82 39 
+
+M * N = 
+7711 6634 8780 
+12836 6951 9104 
+8252 8578 4537 
+
+Scalar: 2
+Vector:
+81 
+5 
+72 
+
+162 
+10 
+144 
+
+Matrix Multiplication (nxn):
+Size [5] Execution time: 7.156e-06s
+Size [10] Execution time: 2.2259e-05s
+Size [20] Execution time: 0.000143797s
+Size [40] Execution time: 0.00113085s
+Size [80] Execution time: 0.00851906s
+Size [160] Execution time: 0.0542992s
+Size [320] Execution time: 0.348043s
+Size [640] Execution time: 2.24649s
+Size [1280] Execution time: 18.2507s
+Size [2560] Execution time: 236.807s
+Matrix Addition (nxn):
+Size [5] Execution time: 2.366e-06s
+Size [10] Execution time: 2.527e-06s
+Size [20] Execution time: 5.155e-06s
+Size [40] Execution time: 1.6199e-05s
+Size [80] Execution time: 6.1923e-05s
+Size [160] Execution time: 0.000223397s
+Size [320] Execution time: 0.000905529s
+Size [640] Execution time: 0.00347866s
+Size [1280] Execution time: 0.0143492s
+Size [2560] Execution time: 0.0582071s
+Size [5120] Execution time: 0.231297s
+Size [10240] Execution time: 0.921217s
+Size [20480] Execution time: 3.70343s
+Size [40960] Execution time: 15.5967s
