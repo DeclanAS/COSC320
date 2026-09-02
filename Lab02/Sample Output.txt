@@ -1,0 +1,81 @@
+Array Size = 100    | Random     | Execution time: 6.8e-06
+# of comparisons: 101
+Array Size = 100    | Duplicates | Execution time: 5.7e-06
+# of comparisons: 101
+Array Size = 100    | Reversed   | Execution time: 4.9e-06
+# of comparisons: 101
+Array Size = 100    | Presorted  | Execution time: 4.9e-06
+# of comparisons: 101
+Array Size = 1000    | Random     | Execution time: 7.71e-05
+# of comparisons: 1001
+Array Size = 1000    | Duplicates | Execution time: 5.33e-05
+# of comparisons: 1001
+Array Size = 1000    | Reversed   | Execution time: 5.15e-05
+# of comparisons: 1001
+Array Size = 1000    | Presorted  | Execution time: 5.01e-05
+# of comparisons: 1001
+Array Size = 10000    | Random     | Execution time: 0.000876
+# of comparisons: 10001
+Array Size = 10000    | Duplicates | Execution time: 0.0006148
+# of comparisons: 10001
+Array Size = 10000    | Reversed   | Execution time: 0.000602
+# of comparisons: 10001
+Array Size = 10000    | Presorted  | Execution time: 0.0005928
+# of comparisons: 10001
+Array Size = 100000    | Random     | Execution time: 0.009932
+# of comparisons: 100001
+Array Size = 100000    | Duplicates | Execution time: 0.0073484
+# of comparisons: 100001
+Array Size = 100000    | Reversed   | Execution time: 0.0069356
+# of comparisons: 100001
+Array Size = 100000    | Presorted  | Execution time: 0.0063026
+# of comparisons: 100001
+Array Size = 1000000    | Random     | Execution time: 0.111026
+# of comparisons: 1000001
+Array Size = 1000000    | Duplicates | Execution time: 0.074797
+# of comparisons: 1000001
+Array Size = 1000000    | Reversed   | Execution time: 0.074207
+# of comparisons: 1000001
+Array Size = 1000000    | Presorted  | Execution time: 0.0732981
+# of comparisons: 1000001
+----------Quick Sorting----------
+Array Size = 100    | Random | Execution time: 5.8e-06
+# of swaps: 546
+Array Size = 100    | Duplicates | Execution time: 1.15e-05
+# of swaps: 2675
+Array Size = 100    | Reversed | Execution time: 1.54e-05
+# of swaps: 2651
+Array Size = 100    | Presorted | Execution time: 2.09e-05
+# of swaps: 5151
+Array Size = 1000    | Random | Execution time: 6.77e-05
+# of swaps: 6783
+Array Size = 1000    | Duplicates | Execution time: 0.0010523
+# of swaps: 251750
+Array Size = 1000    | Reversed | Execution time: 0.001402
+# of swaps: 251501
+Array Size = 1000    | Presorted | Execution time: 0.0021252
+# of swaps: 501501
+Array Size = 10000    | Random | Execution time: 0.0013589
+# of swaps: 61480
+Array Size = 10000    | Duplicates | Execution time: 0.0971118
+# of swaps: 25017500
+Array Size = 10000    | Reversed | Execution time: 0.137423
+# of swaps: 25015001
+Array Size = 10000    | Presorted | Execution time: 0.194389
+# of swaps: 50015001
+Array Size = 100000    | Random | Execution time: 0.0874104
+# of swaps: 468954
+Array Size = 100000    | Duplicates | Execution time: 0.41044
+# of swaps: 26202083
+Array Size = 100000    | Reversed | Execution time: 0.446573
+# of swaps: 32054252
+Array Size = 100000    | Presorted | Execution time: 0.0526654
+# of swaps: 82555630
+Array Size = 1000000    | Random | Execution time: 11.25645
+# of swaps: 233454811
+Array Size = 1000000    | Duplicates | Execution time: 15.53299
+# of swaps: 331444521
+Array Size = 1000000    | Reversed | Execution time: 24.533223
+# of swaps: 517093222
+Array Size = 1000000    | Presorted | Execution time: 9.42125
+# of swaps: 242001265
