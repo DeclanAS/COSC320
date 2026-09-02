@@ -1,0 +1,90 @@
+bash-4.2$ ./lab7.exe TESTME.txt 
+Jenny Jenny, Who can I turn to 8675309
+Rootbeer float: 2147483609
+Random character: Q
+
+Multiplication Hash:
+The multi-hash of 4 is 11360
+The multi-hash of 5 is 14200
+The multi-hash of 6 is 17040
+The multi-hash of 7 is 19880
+The multi-hash of 8 is 22720
+
+Using Hash Function 1:
+The (hex) hash value of "abcdefghijklmnopqrstuvwxyz" is 351b2.
+The (hex) hash value of "zyxwvutsrqponmlkjihgfedcba" is 34609.
+The (hex) hash value of "applesause" is 1591c.
+The (hex) hash value of "Applesause" is 158bc.
+The (hex) hash value of "1234" is 99f6.
+The (hex) hash value of "4321" is 986e.
+The (hex) hash value of "AnDeRsOn" is 11762.
+The (hex) hash value of "aNdErSoN" is 117a8.
+The (hex) hash value of "" is 1d0a.
+The (hex) hash value of " " is d14.
+The (hex) hash value of "  " is 5a38.
+The (hex) hash value of "1    1" is d63a.
+The (hex) hash value of "1     1" is 3c40.
+The (hex) hash value of "1234 " is 2d1e.
+The (hex) hash value of " 1234" is 2b82.
+The (hex) hash value of "10101" is 302c.
+The (hex) hash value of "01010" is 2a86.
+The (hex) hash value of "111000" is d8b4.
+The (hex) hash value of "000111" is d6a0.
+The (hex) hash value of "TRIVIA NIGHT" is 19303.
+The (hex) hash value of "TRIVIANIGHT" is 5e2a.
+The (hex) hash value of "abc" is 1edb.
+The (hex) hash value of "cba" is 1edd.
+The (hex) hash value of "acbd" is 9b6d.
+The (hex) hash value of "dbca" is 9ab7.
+The (hex) hash value of "ac" is 5c60.
+The (hex) hash value of "ca" is 5baa.
+
+Using Hash Function 2:
+The (hex) hash value of "abcdefghijklmnopqrstuvwxyz" is 250b5.
+The (hex) hash value of "zyxwvutsrqponmlkjihgfedcba" is 23ad5.
+The (hex) hash value of "applesause" is dda9.
+The (hex) hash value of "Applesause" is d8e9.
+The (hex) hash value of "1234" is 433b.
+The (hex) hash value of "4321" is 41fd.
+The (hex) hash value of "AnDeRsOn" is 9d60.
+The (hex) hash value of "aNdErSoN" is 9c11.
+The (hex) hash value of "" is 449.
+The (hex) hash value of " " is b28.
+The (hex) hash value of "  " is 1593.
+The (hex) hash value of "1    1" is 4453.
+The (hex) hash value of "1     1" is 2f66.
+The (hex) hash value of "1234 " is 249e.
+The (hex) hash value of " 1234" is 23d2.
+The (hex) hash value of "10101" is 24b9.
+The (hex) hash value of "01010" is 24aa.
+The (hex) hash value of "111000" is 6284.
+The (hex) hash value of "000111" is 62ea.
+The (hex) hash value of "TRIVIA NIGHT" is c3d7.
+The (hex) hash value of "TRIVIANIGHT" is 4cdf.
+The (hex) hash value of "abc" is 1953.
+The (hex) hash value of "cba" is 1955.
+The (hex) hash value of "acbd" is 54bc.
+The (hex) hash value of "dbca" is 53e8.
+The (hex) hash value of "ac" is 27f2.
+The (hex) hash value of "ca" is 270c.
+
+The hash of the file TESTME.txt is 1015101.
+The hexadecimal value of 1015101 is: f7d3d
+
+The hash of the file TESTME.txt is 1015006.
+The hexadecimal value of 1015006 is: f7cde
+
+
+/*   END OF SAMPLE OUTPUT 1 of 2  */
+/*   A Snippet of: valgrind ./lab7.exe TESTME.txt  */
+==2493== HEAP SUMMARY:
+==2493==     in use at exit: 0 bytes in 0 blocks
+==2493==   total heap usage: 12,409 allocs, 12,409 frees, 524,930 bytes allocated
+==2493== 
+==2493== All heap blocks were freed -- no leaks are possible
+==2493== 
+==2493== For counts of detected and suppressed errors, rerun with: -v
+==2493== Use --track-origins=yes to see where uninitialised values come from
+==2493== ERROR SUMMARY: 216 errors from 12 contexts (suppressed: 0 from 0)
+
+/*    END OF SAMPLE OUTPUT 2 of 2  */
